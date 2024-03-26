@@ -1,0 +1,59 @@
+body{
+    font-style: italic;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(151, 162, 189, 0.799);
+}
+.wrapper .time{
+    height: 100px;
+    background-color: #3627e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 10px 10px 20px rgba(4, 16, 48, 0.521);
+    padding: 0 10px;
+}
+.wrapper .time span{
+    width: 100px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgba(16, 16, 28, 0.84);
+}
+.time span.nuqta{
+    width: 10px;
+}
+.time span.nuqta2,
+.time span.millisecond{
+    color: rgba(221, 222, 227, 0.824);
+}
+.wrapper .buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 6px 16px;
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 0 5px;
+    color: black;
+    background: #e0dfe5;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.637);
+}
+.buttons button:hover{
+    color: #3627e1;
+    transform: scale(1.05);
+}
+.buttons button.activ,
+.buttons button.stopActiv{
+    pointer-events: none;
+    opacity: 0.7;
+}
